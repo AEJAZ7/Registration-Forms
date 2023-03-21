@@ -350,7 +350,9 @@
             .form {
                 background-image: url(/balloon-sky.webp);
                 height: 162vh;
-                width: 100%;}
+                width: 100%;
+            background-size: cover;
+            }
                 .dt {
                     align-items: center;
                     display: flex;
@@ -410,6 +412,7 @@
             background-image: url(/balloon-sky.webp);
             height: 155vh;
             width: 100%;
+            background-size: cover;
         }
  }
  @media(max-width:350px){
@@ -441,6 +444,7 @@
                 background-image: url(/balloon-sky.webp);
                 height: 155vh;
                 width: 100%;
+                background-size: cover;
             }
  }
 
