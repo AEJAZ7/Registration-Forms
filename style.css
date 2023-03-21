@@ -389,6 +389,23 @@
         flex-direction: column;
         padding-right: 7%;
     }
+    .bt button {
+        height: 5vh;
+        width: 64%;
+    }
+    .bt {
+        padding-left: 37%;
+        padding-top: 2%;}
+        .gen {
+            display: flex;
+            padding: 5%;
+            padding-left: 30%;
+        }
+        .form {
+            background-image: url(/balloon-sky.webp);
+            height: 155vh;
+            width: 100%;
+        }
  }
  @media(max-width:350px){
 
@@ -403,6 +420,23 @@
         height: 5vh;
         padding-left: 0%;
         margin-left: -5%;}
+        .bt button {
+            height: 5vh;
+            width: 64%;
+        }
+        .bt {
+            padding-left: 37%;
+            padding-top: 2%;}
+            .gen {
+                display: flex;
+                padding: 5%;
+                padding-left: 30%;
+            }
+            .form {
+                background-image: url(/balloon-sky.webp);
+                height: 155vh;
+                width: 100%;
+            }
  }
 
 
