@@ -9,12 +9,16 @@
 }
 
 .form {
-    color: black;
+    color:solid black;
     font-size: x-small;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+.form input{
+    border-radius: 12px;
+    border: #00a0d6;
 
+}
 .st {
     display: flex;
     gap: 150px;
@@ -234,6 +238,9 @@
     padding: 1%;
     padding-left: 6%;
 }
+.gen input{
+    height: 4vh;
+}
 
 
 
@@ -414,6 +421,29 @@
             width: 100%;
             background-size: cover;
         }
+        .form input {
+            background-color: white;
+            font-size: small;
+            text-align: center;
+            align-items: center;
+            width: 200px;
+        }
+        .dob {
+            display: flex;
+            flex-direction: column;
+            padding-right: 0%;
+            padding-left: 14%;
+        }
+        .bt button {
+            height: 5vh;
+            width: 53%;
+        }
+        .gen {
+            display: flex;
+            padding: 5%;
+            padding-left: 28%;
+            margin-right: 9%;
+        }
  }
  @media(max-width:350px){
 
@@ -445,6 +475,28 @@
                 height: 155vh;
                 width: 100%;
                 background-size: cover;
+            }
+            .form input {
+                background-color: white;
+                font-size: small;
+                text-align: center;
+                align-items: center;
+                width: 200px;
+            }
+            .dob {
+                display: flex;
+                flex-direction: column;
+                padding-right: 0%;
+                padding-left: 14%;
+            }.bt button {
+                height: 5vh;
+                width: 53%;
+            }
+            .gen {
+                display: flex;
+                padding: 5%;
+                padding-left: 28%;
+                margin-right: 9%;
             }
  }
 
