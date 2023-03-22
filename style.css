@@ -444,6 +444,9 @@
             padding-left: 28%;
             margin-right: 9%;
         }
+        .form {
+            background-image: url(/balloon-sky.webp);
+            height: 149vh;}
  }
  @media(max-width:350px){
 
@@ -498,6 +501,9 @@
                 padding-left: 28%;
                 margin-right: 9%;
             }
+            .form {
+                background-image: url(/balloon-sky.webp);
+                height: 149vh;}
  
         }
 
