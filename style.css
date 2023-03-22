@@ -19,6 +19,13 @@
     border: #00a0d6;
 
 }
+.form h2{
+    text-align: center;
+    color: honeydew;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-top: 1%;
+}
 .st {
     display: flex;
     gap: 150px;
@@ -446,7 +453,15 @@
         }
         .form {
             background-image: url(/balloon-sky.webp);
-            height: 149vh;}
+            height: 155vh;}
+            .form h2 {
+                text-align: center;
+                color: honeydew;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-weight: 500;
+                margin-top: 0%;
+                padding-top: 2%;
+            }
  }
  @media(max-width:350px){
 
@@ -503,7 +518,15 @@
             }
             .form {
                 background-image: url(/balloon-sky.webp);
-                height: 149vh;}
+                height: 155vh;}
+                .form h2 {
+                    text-align: center;
+                    color: honeydew;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    font-weight: 500;
+                    margin-top: 0%;
+                    padding-top: 2%;
+                }
  
         }
 
