@@ -248,6 +248,10 @@
 .gen input{
     height: 4vh;
 }
+.gen label{
+    transform: translateY(10px);
+}
+
 
 
 
